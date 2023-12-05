@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Book Ratio</title>
+      {% else %}
+      <title>Welcome to Book Ratio</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Book Ratio: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
