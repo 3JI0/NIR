@@ -3,7 +3,7 @@ import os
 from tokenized import stop
 from model import clf
 
-dest = os.path.join('bookclassifier','pkl_objects')
+dest = os.path.join('app','pkl_objects')
 if not os.path.exists(dest):
     os.makedirs(dest)
 pickle.dump(stop, 
