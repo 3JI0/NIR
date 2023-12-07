@@ -14,5 +14,5 @@ venv.bak/
 # Source
 /app/vect/BookRatio/
 /bookclassifier/
-/app/plk_objects/
+/app/pkl_objects/
 
