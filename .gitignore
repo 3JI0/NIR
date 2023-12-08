@@ -16,3 +16,5 @@ venv.bak/
 /bookclassifier/
 /app/pkl_objects/
 
+# Methods
+/config.py
